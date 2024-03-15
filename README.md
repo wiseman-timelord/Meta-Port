@@ -7,6 +7,7 @@
 This is a batch that neatly runs MetaTrader in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this, I use it for both these reasons...
 1. To not run out of activations on Expert Advisors, for example when you reinstall the OS.
 2. There is an issue assigning threads to backtesting.
+3. Run multiple accounts on the same machine.
 
 ### FEATURES
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
@@ -51,6 +52,7 @@ Launching MetaTrader 5 in Portable Mode..
 6. When everything Setup (including the EAs you use), back it up, this is now your Master for install purposes.
 
 ### NOTATION
+- If you want to run multiple accounts on same machine, then duplicate the resulting portable folder.
 - If you want a shortcut to the batch, ensure the Target field looks like this `C:\Windows\System32\cmd.exe /c "DRIVE:\PATH TO BATCH\Meta-Port.Bat"`, if you want it on your TaskBar.
 - Do not copy across activated EAs from your normal install to the portable directory, this will not work.
 - Issues with multi-core now fixed, phew, almost resulted to reinstalling my OS, and even as a last resort installing a beta Motherboard Bios.
