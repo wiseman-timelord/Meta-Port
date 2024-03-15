@@ -4,10 +4,9 @@
 - It works as intended, there will be, limited or no, further development.
 
 ## DESCRIPTION
-This is a batch that neatly runs MetaTrader in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this...
+This is a batch that neatly runs MetaTrader in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this, I use it for both these reasons...
 1. To not run out of activations on Expert Advisors, for example when you reinstall the OS.
 2. There is an issue assigning threads to backtesting.
-<br>...I use it for both these reasons.
 
 ### FEATURES
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
