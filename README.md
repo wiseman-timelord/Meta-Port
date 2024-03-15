@@ -6,8 +6,7 @@
 ## DESCRIPTION
 This is a batch that neatly runs MetaTrader in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this, I use it for both these reasons...
 1. To not run out of activations on Expert Advisors, for example when you reinstall the OS.
-2. There is an issue assigning threads to backtesting.
-3. Run multiple accounts on the same machine.
+2. Run multiple accounts on the same machine, for example, one for forex and one for commodities.
 
 ### FEATURES
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
