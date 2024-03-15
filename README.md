@@ -51,7 +51,7 @@ Launching MetaTrader 5 in Portable Mode..
 6. When everything Setup (including the EAs you use), back it up, this is now your Master for install purposes.
 
 ### NOTATION
-- 
+- If you want a shortcut to the batch, ensure the Target field looks like this `C:\Windows\System32\cmd.exe /c "DRIVE:\PATH TO BATCH\Meta-Port.Bat"`, if you want it on your TaskBar.
 - Do not copy across activated EAs from your normal install to the portable directory, this will not work.
 - Issues with multi-core now fixed, phew, almost resulted to reinstalling my OS, and even as a last resort installing a beta Motherboard Bios.
   
