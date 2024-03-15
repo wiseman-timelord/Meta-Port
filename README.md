@@ -46,7 +46,7 @@ Launching MetaTrader 5 in Portable Mode..
 1. Copy your MetaTrader 5 program directory to a safe location, such as, `c:\Network Files\MetaTrader-Portable` or `c:\Trading Files\MetaTrader-Portable`, somewhere that dont have permission issues.
 2. Put "Meta-Port.Bat" file in same dir as "Terminal64.exe".
 3. Run `Take Ownership` on the portable MetaTrader 5 director
-4. Run "Meta-Port.Bat" by double clicking it. 
+4. Run `Meta-Port.Bat` by double clicking it. 
 5. Set your stuff up again in MetaTrader 5, it will save for next time if you close MetaTrader 5.
 6. When everything Setup (including the EAs you use), back it up, this is now your Master for install purposes.
 
