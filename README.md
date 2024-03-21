@@ -16,25 +16,17 @@ MetaPort is two batches placed in the MetaTrader 5 directory that neatly runs, M
 ### PREVIEW
 - No frills here yet...
 ```
+Launcher Initialized...
 
-Script Initialized...
 
+Setting Temporary Dirs..
+..Temporary Directories Set.
 
-Launching MetaTrader 5 in Portable Mode..
-..MetaTrader 5 Launched.
+Launching MetaTrader Portable..
+..MetaTrader Portable Launched.
 
 
 ...Script Complete.
-
-
-
-
-
-
-
-
-
-
 
 ```
 
