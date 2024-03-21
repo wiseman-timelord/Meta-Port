@@ -1,12 +1,12 @@
 # Meta-Port
 
 ### STATUS: WORKING
-- It works as intended, there will be, limited or no, further development.
+- It, works as intended and has an improved interface, there will be, limited or no, further development.
 
 ## DESCRIPTION
 This is a batch that neatly runs MetaTrader in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this, I use it for both these reasons...
 1. To not run out of activations on Expert Advisors, for example when you reinstall the OS.
-2. Run multiple accounts on the same machine, for example, one for forex and one for commodities.
+2. Run multiple accounts on the same machine, for example, one for Major Forex and one for Metals.
 
 ### FEATURES
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
