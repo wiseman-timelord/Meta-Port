@@ -2,7 +2,7 @@
 
 :: Initialization
 title MetaTrader5 Environment
-mode 45,13
+mode 35,13
 color 80
 cd /d "%~dp0"
 echo.
