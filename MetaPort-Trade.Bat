@@ -12,6 +12,10 @@ echo.
 
 :: Environment Setup
 echo Setting Temporary Dirs..
+if not exist ".\temp\" (
+    mkdir ".\temp"
+	echo ..Created .\temp
+)
 SET TMP=.\temp
 SET TEMP=.\temp
 echo ..Temporary Directories Set.
