@@ -41,7 +41,7 @@ Launching MetaTrader Portable..
 3. Run `Take Ownership` on the portable MetaTrader 5 directory, I found some settings were not saving otherwise (`TakeOwnership.reg` is provided, its a explorer context menu thing).
 4. Run `Port-Trade.Bat` by double clicking it. 
 5. Set your stuff up again in MetaTrader 5, it will save for next time if you close MetaTrader 5.
-6. When everything Setup (including the EAs you use), back it up, this is now your Master for install purposes.
+6. When everything Setup (including the EAs you use), back it up, this is now your Master for install/restore purposes.
 
 ### NOTATION
 - If you want to run multiple accounts on same machine, then duplicate the resulting portable folder.
