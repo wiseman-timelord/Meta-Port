@@ -7,7 +7,6 @@
 MetaPort is two batches placed in the MetaTrader 5 directory that neatly runs, MetaTrader and MetaEditor, in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this, I use it for both these reasons...
 1. To not run out of activations on Expert Advisors, for example when you reinstall the OS.
 2. Run multiple accounts on the same machine, for example, one for Major Forex and one for Metals.
-3. Move Trading Server between machines, even have it on a thumb drive, for on the go trading.
 
 ### FEATURES
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
