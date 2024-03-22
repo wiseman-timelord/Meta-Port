@@ -30,7 +30,6 @@ Launching MetaTrader Portable..
 
 ```
 
-
 ## REQUIREMENTS
 - Windows with scripting host enabled.
 - Installation of MetaTrader 5.
@@ -44,6 +43,8 @@ Launching MetaTrader Portable..
 6. When everything Setup (including the EAs you use), back it up, this is now your Master for install/restore purposes.
 
 ### NOTATION
+- If you intend to run multiple "MetaPorts", then use a command such as `start /min "" ".\terminal64.exe" /portable` in the batch instead, soes they all start minimized. 
+- It turned out to not be possible to run MetaPort on other machines, you need to make up a portable directory from the metatrader 5 on the machine you are using it on.
 - If you want to run multiple accounts on same machine, then duplicate the resulting portable folder.
 - If you want a shortcut to the batch, ensure the Target field looks like this `C:\Windows\System32\cmd.exe /c "DRIVE:\PATH TO BATCH\Port-Trade.Bat"`, if you want it on your TaskBar.
 - Do not copy across activated EAs from your normal install to the portable directory, this will not work.
