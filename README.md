@@ -3,6 +3,7 @@
 ### STATUS: WORKING
 - It, works as intended. Further development includes...
 1. Refinement of printed text.
+2. Pauses so user can see what feedback is printed.
 
 ## DESCRIPTION
 - MetaPort is two batches placed in the MetaTrader 5 directory that neatly runs, MetaTrader and MetaEditor, in Portable mode, as such it uses its own directory to store, all or most, of the files. You will not be using Both, multi and single, versions, either you need to use one account between multiple computers, or you want to use multiple accounts on the same computer. Multiple instances means you will be able to mess around on a demo account, while not altering the main trader insterface configuration, this is VERY useful, and prevents accidental closure of charts when closing tabs related to backtesting. 
@@ -15,7 +16,7 @@
 - **Multi-Instance**: Run multiple accounts in multiple Metatrader windows (Multi Version).
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
 - **Self-Termination**: The batch closes itself after running MetaTrader.
-- **Auto-Folders**: Automatic creation of required folders, ".\Temp" and ".\MetaQuotes" (Single Version).
+- **Auto-Folders**: Automatic creation of required folders, ".\Temp" and ".\MetaQuotes" (Single Version), or , ".\Temp" (Multi Version).
 - **Differing Editions**: The user can run, personal or server, versions of the script.
 - **Initial Check**: Verifies the existence of `%APPDATA%\MetaQuotes`; if absent, alerts for MetaTrader reinstallation and exits. (Single Version).
 - **Directory Handling**: Copies any found `%APPDATA%\MetaQuotes` directory to the script's location for local data preservation. (Single Version).
