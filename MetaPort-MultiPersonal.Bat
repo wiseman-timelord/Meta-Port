@@ -42,7 +42,7 @@ if %ERRORLEVEL% equ 2 goto LaunchMetaEditor
 if %ERRORLEVEL% equ 3 goto ExitScript
 
 :LaunchMetaTrader
-close
+cls
 echo.
 echo Launching MetaTrader...
 if exist ".\terminal64.exe" (
@@ -54,7 +54,7 @@ if exist ".\terminal64.exe" (
 goto EOF
 
 :LaunchMetaEditor
-close
+cls
 echo.
 echo Launching MetaEditor...
 if exist ".\MetaEditor64.exe" (
