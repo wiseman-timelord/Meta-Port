@@ -1,7 +1,8 @@
 # MetaPort
 
 ### STATUS: WORKING
-- It, works as intended and has an improved interface, there will be, limited or no, further development.
+- It, works as intended with multi-instance and now has truly portable version. Further development includes...
+1. Refinement of printed text.
 
 ## DESCRIPTION
 - MetaPort is two batches placed in the MetaTrader 5 directory that neatly runs, MetaTrader and MetaEditor, in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this, I use it for both these reasons...
