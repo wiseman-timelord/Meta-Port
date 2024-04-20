@@ -17,6 +17,9 @@
 - **Self-Termination**: The batch closes itself after running MetaTrader.
 - **Auto-Folders**: Automatic creation of required folders, ".\Temp" and ".\MetaQuotes" (Single Version).
 - **Differing Editions**: The user can run, personal or server, versions of the script.
+- **Initial Check**: Verifies the existence of `%APPDATA%\MetaQuotes`; if absent, alerts for MetaTrader reinstallation and exits. (Single Version).
+- **Directory Handling**: Copies any found `%APPDATA%\MetaQuotes` directory to the script's location for local data preservation. (Single Version).
+- **Symbolic Link Handling**: Assesses `%APPDATA%\MetaQuotes` symbolic link status, updating it as necessary or prompting for MetaTrader reinstallation if discrepancies are found. (Single Version).
 
 ### PREVIEW
 - Launch Menu...
