@@ -5,14 +5,14 @@
 1. Refinement of printed text.
 
 ## DESCRIPTION
-- MetaPort is two batches placed in the MetaTrader 5 directory that neatly runs, MetaTrader and MetaEditor, in Portable mode, as such it uses its own directory to store all the files. There are 2 reasons you may want to do this, I use it for both these reasons...
-1. To not run out of activations on Expert Advisors, for example when you reinstall the OS.
-2. Run multiple accounts/instances on the same machine, for example, one forForex and one for Metals (with the Multi-Versions). Though this still uses "%APPDATA%\MetaQuotes\", and so is not able to be used between different machines.
-3. Run single accounts/instances on any machines, for example, take it with you to work/home/holiday (with the Single-Versions). The thing is, and I WARN YOU EXPLICITLY, when you run single version it will delete the "%APPDATA%\MetaQuotes\" folder, as it needs to create a symbolic link in its place, that points to the portable directory. This is the solution to using "%APPDATA%\MetaQuotes\".
+- MetaPort is two batches placed in the MetaTrader 5 directory that neatly runs, MetaTrader and MetaEditor, in Portable mode, as such it uses its own directory to store, all or most, of the files. You will not be using Both, multi and single, versions, either you need to use one account between multiple computers, or you want to use multiple accounts on the same computer. 
+1. Run multiple accounts/instances on the same machine, for example, one forForex and one for Metals (with the Multi-Versions). Though this still uses "%APPDATA%\MetaQuotes\", and so is not able to be used between different machines.
+2. Run single accounts/instances on any machines, for example, take it with you to work/home/holiday (with the Single-Versions). The thing is, and I WARN YOU EXPLICITLY, when you run single version it will delete the "%APPDATA%\MetaQuotes\" folder, as it needs to create a symbolic link in its place, that points to the portable directory. This is the solution to using "%APPDATA%\MetaQuotes\".
 
 ### FEATURES
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
 - **Self-Termination**: The batch closes itself after running MetaTrader.
+- **Infinite Licenses**: To not run out of activations on Expert Advisors, for example when you reinstall the OS.
 
 ### PREVIEW
 - Single...
