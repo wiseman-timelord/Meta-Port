@@ -71,11 +71,10 @@ Launching MetaTrader 5 Portable..
 5. Set your stuff up again in MetaTrader 5, it will save for next time after you close MetaTrader 5, like normal
 
 ### NOTATION
-- If you have issues, and dont mind potentially corrupting your install, then you can run `Take Ownership` on the portable MetaTrader 5 directory, I found some settings were not saving otherwise, but I also found this not neccessary at other times.
-- If you intend to run multiple "MetaPorts", then use a command such as `start /min "" ".\terminal64.exe" /portable` in the batch instead, soes they all start minimized. 
+- If you intend to run metatrader automated on startup, then use a command such as `start /min "" ".\terminal64.exe" /portable` in the batch instead, soes they all start minimized. 
 - If you want a shortcut to the batch, ensure the Target field looks like this `C:\Windows\System32\cmd.exe /c "DRIVE:\PATH TO BATCH\Port-Trade.Bat"`, if you want it on your TaskBar.
-- Do not copy across activated EAs from your normal install to the portable directory, this will not work.
-- Issues with multi-core now fixed, phew, almost resulted to reinstalling my OS, and even as a last resort installing a beta Motherboard Bios.
+- If you have issues, and dont mind potentially corrupting your install, then you can run `Take Ownership` on the portable MetaTrader 5 directory, I found some settings were not saving otherwise, but I also found this not neccessary at other times, possibly depends on how things are installed.
+- Do not copy across activated EAs from your normal install to the portable directory, this will not work. It will work with EAs not requiring activation, but ensure they also have any relating custom indicators copied over appropriately.
 
 ## DISCLAIMER
 This software is subject to the terms in License.Txt, covering usage, distribution, and modifications. For full details on your rights and obligations, refer to License.Txt.
