@@ -1,7 +1,7 @@
 # MetaPort
 
 ### STATUS: WORKING
-- It, works as intended with multi-instance and now has truly portable version. Further development includes...
+- It, works as intended. Further development includes...
 1. Refinement of printed text.
 
 ## DESCRIPTION
