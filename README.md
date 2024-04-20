@@ -46,7 +46,7 @@ Select; Options = 1-2, Exit = X:
 - Single Version Processes...
 ```
 
-...This will be updated when I use Single version next, consider it Experimental, but consider it would be something like this..
+...This will be updated when I use Single version next, consider it, Experimental and would be something like this..
 
 Found existing MetaQuotes directory
 Copy successful. Deleting original MetaQuotes directory
