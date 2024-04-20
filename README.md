@@ -17,7 +17,23 @@
 - **Auto-Folders**: Automatic creation of required folders, ".\Temp" and ".\MetaQuotes" (Single Version).
 
 ### PREVIEW
-- Single...
+- Multi Version...
+```
+
+Launcher Initialized...
+
+
+Setting Temporary Dirs..
+..Temporary Directories Set.
+
+Launching MetaTrader Portable..
+..MetaTrader Portable Launched.
+
+
+...Script Complete.
+
+```
+- Single Version...
 ```
 Launcher Initialized...
 
@@ -37,22 +53,6 @@ Symlink created successfully.
 
 Launching MetaTrader 5 Portable..
 ..Terminal 5 Portable Launched.
-
-
-...Script Complete.
-
-```
-- Multi...
-```
-
-Launcher Initialized...
-
-
-Setting Temporary Dirs..
-..Temporary Directories Set.
-
-Launching MetaTrader Portable..
-..MetaTrader Portable Launched.
 
 
 ...Script Complete.
