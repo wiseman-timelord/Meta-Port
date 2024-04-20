@@ -63,7 +63,7 @@ Launching MetaTrader Portable..
 
 ### USAGE
 1. Copy your MetaTrader 5 program directory to a safe location, such as for example `DRIVE:\PARENT FOLDER\Meta-Port`, somewhere that dont have permission issues, ie not `C:\Program Files\SOME FOLDER`.
-2. Put, `MetaPort-TradeMulti.Bat` and `MetaPort-EditMulti.Bat` in same dir as "Terminal64.exe", or if you only intend to use, one account on one instamce, then you can make it fully portable with, `MetaPort-TradeSingle.Bat` and `MetaPort-EditSingle.Bat`, see explenation in "DESCRIPTION" section.
+2. Put, `MetaPort-TradeMulti.Bat` and `MetaPort-EditMulti.Bat` in same dir as "Terminal64.exe", or if you only intend to use, one account on one instamce, then you can make it fully portable with, `MetaPort-TradeSingle.Bat` and `MetaPort-EditSingle.Bat`, see explenation in "DESCRIPTION" section. You will not be using Both, multi and single, versions, either you need to use one accound between multiple computers, or you want to use multiple accounts on the same computer.
 3. Run, `MetaPort-TradeMulti.Bat` by double clicking it, or `MetaPort-TradeSingle.Bat` by right click "Run As Admin", therein, the admin can be assigned if you make it into a shortcut, then do the cmd.exe /c thing detailed in "NOTATION" section below.
 5. Set your stuff up again in MetaTrader 5, it will save for next time if you close MetaTrader 5.
 6. When everything Setup (including the EAs you use), back it up, this is now your Master for install/restore purposes.
