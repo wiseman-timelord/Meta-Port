@@ -12,7 +12,8 @@
 3. There is additionally the, Personal or Server, Versions of the script, whereby, the user may choose the personal version for customization of setup or editing, or the server version intended for automated launching, without the menu and editor oprions.
 
 ### FEATURES
-- **Infinite Licenses**: To not run out of activations on Expert Advisors, for example when you reinstall the OS (Single Version).
+- **Infinite Licenses**: To not run out of activations on Expert Advisors, for example when you reinstall the OS (Single Version), or for EAs that, you make yourself or require no activation, then (Multi-Version).
+- **Backup and Restore**: To be able to backup the metatrader directory, and restore, again flawlessly (Single Versin), or with your own EAs or that do not require activation (Multi-Version).
 - **Multi-Instance**: Run multiple accounts in multiple Metatrader windows (Multi Version).
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
 - **Self-Termination**: The batch closes itself after running MetaTrader.
