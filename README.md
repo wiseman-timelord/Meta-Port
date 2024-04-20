@@ -68,7 +68,7 @@ Launching MetaTrader Portable..
 2. Put, `MetaPort-TradeMulti.Bat` and `MetaPort-EditMulti.Bat` in same dir as "Terminal64.exe", or if you only intend to use, one account on one instamce, then you can make it fully portable with, `MetaPort-TradeSingle.Bat` and `MetaPort-EditSingle.Bat`, see explenation in "DESCRIPTION" section. You will not be using Both, multi and single, versions, either you need to use one accound between multiple computers, or you want to use multiple accounts on the same computer.
 3. If you are using the multi-version, then ensure to create 1 copy of the Portable folder with the batches, for each account you intend to use, and name the folders relevantly.
 4. Run, `MetaPort-TradeMulti.Bat` by double clicking it, or `MetaPort-TradeSingle.Bat` by right click "Run As Admin", therein, the admin can be assigned if you make it into a shortcut, then do the cmd.exe /c thing detailed in "NOTATION" section below.
-5. Set your stuff up again in MetaTrader 5, it will save for next time after you close MetaTrader 5.
+5. Set your stuff up again in MetaTrader 5, it will save for next time after you close MetaTrader 5, like normal
 
 ### NOTATION
 - If you have issues, and dont mind potentially corrupting your install, then you can run `Take Ownership` on the portable MetaTrader 5 directory, I found some settings were not saving otherwise, but I also found this not neccessary at other times.
