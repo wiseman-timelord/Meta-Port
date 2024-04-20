@@ -26,8 +26,8 @@ timeout /t 1 /nobreak >nul
 cls
 echo.
 echo.
-echo         MetaTrader Launch Menu
-echo         ----------------------
+echo          MetaPort Launch Menu
+echo          --------------------
 echo.
 echo      1. MetaTrader (Terminal64.exe)
 echo.
