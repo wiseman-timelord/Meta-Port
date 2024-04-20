@@ -14,7 +14,7 @@
 - **Multi-Instance**: Run multiple accounts in multiple Metatrader windows (Multi Version).
 - **Clear Interface**: Text confirmations with short wait commands, explaining what is going on.
 - **Self-Termination**: The batch closes itself after running MetaTrader.
-- **Auto-Folders**: Automatic creation of required folders, ".\Temp" and ".\MetaQuotes".
+- **Auto-Folders**: Automatic creation of required folders, ".\Temp" and ".\MetaQuotes" (Single Version).
 
 ### PREVIEW
 - Single...
