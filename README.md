@@ -66,15 +66,13 @@ Launching MetaTrader Portable..
 ### USAGE
 1. Copy your MetaTrader 5 program directory to a safe location, such as for example `DRIVE:\PARENT FOLDER\Meta-Port`, somewhere that dont have permission issues, ie not `C:\Program Files\SOME FOLDER`.
 2. Put, `MetaPort-TradeMulti.Bat` and `MetaPort-EditMulti.Bat` in same dir as "Terminal64.exe", or if you only intend to use, one account on one instamce, then you can make it fully portable with, `MetaPort-TradeSingle.Bat` and `MetaPort-EditSingle.Bat`, see explenation in "DESCRIPTION" section. You will not be using Both, multi and single, versions, either you need to use one accound between multiple computers, or you want to use multiple accounts on the same computer.
-3. Run, `MetaPort-TradeMulti.Bat` by double clicking it, or `MetaPort-TradeSingle.Bat` by right click "Run As Admin", therein, the admin can be assigned if you make it into a shortcut, then do the cmd.exe /c thing detailed in "NOTATION" section below.
-5. Set your stuff up again in MetaTrader 5, it will save for next time if you close MetaTrader 5.
-6. When everything Setup (including the EAs you use), back it up, this is now your Master for install/restore purposes.
+3. If you are using the multi-version, then ensure to create 1 copy of the Portable folder with the batches, for each account you intend to use, and name the folders relevantly.
+4. Run, `MetaPort-TradeMulti.Bat` by double clicking it, or `MetaPort-TradeSingle.Bat` by right click "Run As Admin", therein, the admin can be assigned if you make it into a shortcut, then do the cmd.exe /c thing detailed in "NOTATION" section below.
+5. Set your stuff up again in MetaTrader 5, it will save for next time after you close MetaTrader 5.
 
 ### NOTATION
 - If you have issues, and dont mind potentially corrupting your install, then you can run `Take Ownership` on the portable MetaTrader 5 directory, I found some settings were not saving otherwise, but I also found this not neccessary at other times.
 - If you intend to run multiple "MetaPorts", then use a command such as `start /min "" ".\terminal64.exe" /portable` in the batch instead, soes they all start minimized. 
-- It turned out to not be possible to run MetaPort on other machines, you need to make up a portable directory from the metatrader 5 on the machine you are using it on.
-- If you want to run multiple accounts on same machine, then duplicate the resulting portable folder.
 - If you want a shortcut to the batch, ensure the Target field looks like this `C:\Windows\System32\cmd.exe /c "DRIVE:\PATH TO BATCH\Port-Trade.Bat"`, if you want it on your TaskBar.
 - Do not copy across activated EAs from your normal install to the portable directory, this will not work.
 - Issues with multi-core now fixed, phew, almost resulted to reinstalling my OS, and even as a last resort installing a beta Motherboard Bios.
