@@ -78,3 +78,8 @@ Symlink created successfully.
 
 ## DISCLAIMER
 This software is subject to the terms in License.Txt, covering usage, distribution, and modifications. For full details on your rights and obligations, refer to License.Txt.
+
+
+
+### WARNING:
+- I advise OHLC backtesting on M1 with the timeframe of 5 minutes, so as to have minimum 5 points of data for measurement of data, this way we avoid using every tick unless for single pass, this is helpful depending upon memory size. Genetic Backtests for Every Tick require between 32GB-64GB for EurUsd for one year, if you do not have enough memory this may crash your computer with corruption of relating history file, unexpected results may appear elsewhere in unrelated applications; Solution is to use a performance monitor for sytem memory on task manager abort if its within 20% or less memory available (to do this correctly you should already have Metatrader selected in Task manager, and with mouse already over End Task button for responsive termination before no memory available event.
